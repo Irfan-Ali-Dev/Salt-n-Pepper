@@ -16,24 +16,24 @@
 /* Fonts */
 @font-face {
     font-family: futurak;
-    src: url(../Font/futurak/futurak.ttf);
+    src: url(../font/futurak/futurak.ttf);
 }
 
 @font-face {
     font-family: apercu;
-    src: url(../Font/Apercu/Apercu.otf);
+    src: url(../font/Apercu/Apercu.otf);
 }
 @font-face {
     font-family: 'Inter';
-    src: url('../Font/Inter/Inter-Regular.woff2') format('woff2'),
-        url('../Font/Inter/Inter-Regular.woff') format('woff');
+    src: url('../font/Inter/Inter-Regular.woff2') format('woff2'),
+        url('../font/Inter/Inter-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: butler;
-    src: url(../Font/Butler/Butler_Regular.otf);
+    src: url(../font/Butler/Butler_Regular.otf);
 }
 @font-face {
     font-family: Poppins;
