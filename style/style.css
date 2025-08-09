@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white);
+}
+:root {
+    --black: #000000;
+    --darkgray: #212529;
+    --white: #ffffff;
+    --offwhite: #ffffffb3;
+    --red: #ed1c24;
+    --darkblack: #ffffff0f;
+    --green: #28A745;
+}
+/* Fonts */
+@font-face {
+    font-family: futurak;
+    src: url(../Font/futurak/futurak.ttf);
+}
+
+@font-face {
+    font-family: apercu;
+    src: url(../Font/Apercu/Apercu.otf);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../Font/Inter/Inter-Regular.woff2') format('woff2'),
+        url('../Font/Inter/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: butler;
+    src: url(../Font/Butler/Butler_Regular.otf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">);}
+.row {flex-direction: row;}
+.rowR {flex-direction: row-reverse;}
+.column {flex-direction: column;}
+.columnR {flex-direction: column-reverse;}
+.spaceB {justify-content: space-between;}
+.spaceA {justify-content: space-around;}
+.flex {display: flex}
+.white {color: var(--white);}
+.whiteb {background-color: var(--white);}
+.offwhite {color: var(--offwhite);}
+.offwhiteb {background-color: var(--offwhite);}
+.darkgray {color: var(--darkgray);}
+.darkgrayb {background-color: var(--darkgray);}
+.darkblack {color: var(--darkblack);}
+.darkblackb {background-color: var(--darkblack);}
+.red {color: var(--red);}
+.redb {background-color: var(--red);}
+.green {color: var(--green);}
+.greenb {background-color: var(--green);}
+.black {color: var(--black);}
+.blackb {background-color: var(--black);}
+.transparent {background-color: transparent;}
+.hundered {width: 100%;}
+.futurak {font-family: futurak;}
+.apercu {font-family: apercu;}
+.inter {font-family: Inter;}
+.butler {font-family: butler;}
+.Poppins {font-family: Poppins;}
+.centerJ {justify-content: center;}
+.centeri {align-items: center;}
+.centerT {text-align: center;}
+.leftT {text-align: left;}
+.centerC {align-content: center;}
+.noneb {border: none;}
+
+
+body {
+    background-color: var(--black);
+    flex-wrap: wrap;
+}
+a {text-decoration: none;}
+/* ManuBar */
+header {padding: 5px 70px;}
+.logo {width: 165px;}
+.ManuBar {align-items: center; margin-left: 20px; margin-top: 2%;}
+nav {align-items: center;}
+nav> a {text-decoration: none; margin-right: 20px;}
+.manubtn {border-radius: 50px; padding: 10px 15px; border: 1px solid var(--white); cursor: pointer;}
+.manubtnR {border: none; border-radius: 50px; padding: 8px 12px; cursor: pointer;}
+.manubtnR> i {padding: 5px; background-color: var(--white); color: var(--red); border-radius: 50%; font-size: 1rem;}
+/* .welcome {text-align: center;} */
+.welcome> {margin: 70px;}
+.welcome> h3 {display: inline; font-size: 2rem;}
+.welcome> h2 {display: inline; font-size: 3rem;}
+.welcome> p {font-size: 1rem;}
+.Welbtn {border-radius: 50px; padding: 15px 40px; border: 1px solid var(--white); cursor: pointer; margin: 20px;}
+.WelPic {margin: 20px 10px; border-radius: 10px;}
+/* .WelPic>img {padding: 20px; border-radius: 100px;} */
+/* Franchises */
+.marginF {margin-top: 70px; margin-bottom: 30px;}
+.marginF> h3 {font-size: 3rem;}
+.FrnhBr {margin: 70px;}
+.F-btn {border-radius: 50px; padding: 15px 40px; border: 1px solid var(--white); cursor: pointer; font-size: 1rem;}
+.item {width: 550px; margin: 15px;}
+.item> h4 {padding-bottom: 10px; letter-spacing: 10px; text-transform: uppercase;}
+.item> h2 {padding-bottom: 20px; font-size: 2rem;}
+.item> p {padding-bottom: 10px;}
+.F-btn> i {padding: 5px; background-color: var(--white); color: var(--red); border-radius: 50%; font-size: 1rem;}
+/* Exp Franchises */
+.FrnhBr {margin: 0px;}
+.F-btn {border-radius: 50px; padding: 15px 40px; border: 1px solid var(--white); cursor: pointer; font-size: 1rem;}
+.itemEF {width: 350px; margin: 15px;}
+.itemEF> h4 {padding-bottom: 10px; letter-spacing: 10px; text-transform: uppercase; font-size: .8rem;}
+.itemEF> h2 {padding-bottom: 20px; font-size: 1.2rem;}
+.itemEF> p {padding-bottom: 10px; font-size: .6rem;}
+.Para {font-size: 1rem;}
+/* Village Franchise */
+.itemV>a>button {border: 1px solid var(--green); cursor: pointer; transition: background-color 0.3s ease;}
+.itemV>a {}
+
+.CSBr {margin: 0px;}
+.F-btn {border-radius: 50px; padding: 15px 40px; border: 1px solid var(--white); cursor: pointer; font-size: 1rem;}
+.itemCS {width: 370px; margin: 20px 10px; padding: 15px 25px; border-radius: 10px;}
+.itemCS> h4 {padding-bottom: 10px; letter-spacing: 5px; text-transform: uppercase; font-size: .6rem;}
+.itemCS> h2 {padding-bottom: 20px; font-size: 1.5rem;}
+
+/* footer */
+.itemFt>h5 {font-size: 1rem; padding-bottom: 10px; padding-top: 5px;} 
+.itemFt2>h5 {font-size: 1rem; padding-bottom: 10px; padding-top: 5px;} 
+.itemFt4>h5 {font-size: 1rem; padding-bottom: 10px; padding-top: 5px;} 
+.itemFt>p {padding-bottom: 10px; padding-top: 5px;}
+.itemFt {margin: 20px; padding: 10px; width: 700px;}
+.itemFt4 {margin: 20px; padding: 10px; width: 400px;}
+.itemFt2 {margin: 20px; padding: 10px; width: 300px;}
+.itemFt>a> i {padding: 10px 15px; background-color: var(--red); color: var(--white); border-radius: 50%; font-size: 1rem; border: var(--black) 1px solid;}
+.itemFt4>a> i {padding: 10px 15px; background-color: var(--red); color: var(--white); border-radius: 50%; font-size: 1rem; border: var(--black) 1px solid;}
+.itemFt2>a> i {padding: 10px 15px; background-color: var(--red); color: var(--white); border-radius: 50%; font-size: 1rem; border: var(--black) 1px solid;}
+.itemFt4>a {margin: 1px;}
+
+
+
+/* About Us */
+/* .intro {margin: 20px; padding: 20px;} */
+.intro>h1 {font-size: 2.5rem; margin-top: 50px; margin-bottom: 20px;}
+.intro>h2 {font-size: 2rem; margin-top: 50px; margin-bottom: 20px;}
+.intro>p {font-size: 1rem;  margin-bottom: 20px; padding: 10px; 20px}
+
+
+/* Publication */
+.itemPbi {border: var(--offwhite) 1px solid; margin: 10px;}
+.Publication {margin-bottom: 30px; }
+.Publication>h2 {margin-bottom: 40px; font-size: 2rem;}
+.Publication>h3 {margin-bottom: 10px;}
+.Publication>p {margin-bottom: 10px;}
+.Publication>a {margin-bottom: 10px;}
+
+
+/* Franchise */
+.GetF {margin: 50px; font-size: 2.5rem;}
+.data {width: 500px; margin: 10px;}
+.data>label { margin: 10px; }
+.data>input {width: 500px; height: 30px; margin: 10px;}
+.main {background-color: rgb(223, 156, 12); font-size: 1rem; border-radius: 50px; padding: 5px 50px; margin-left: 20px; margin-bottom: 20px;}
